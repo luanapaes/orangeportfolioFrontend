@@ -406,11 +406,9 @@ function addProjeto() {
 
                     divproject.innerHTML = `
                     <div class="card__item" id="card${projeto.id}">
-                    <div class="btn__options">
                         <button class="btn__options--btn" onclick="showOptions('options${projeto.id}')">
                             <i class="fas fa-pen"></i>
                         </button>
-                    </div>
                     
 
                     <div class="options" id="options${projeto.id}">

@@ -414,7 +414,7 @@ function addProjeto() {
                     
 
                     <div class="options" id="options${projeto.id}">
-                        <button class="btn__option" id="update" onclick="openUpdate()">Editar</button>
+                        <button class="btn__option" id="update" onclick="openUpdate(${projeto.id})">Editar</button>
                         <button class="btn__option" id="excluir" onclick="confirmDelete('card${projeto.id}')">Excluir</button>
                     </div>
 

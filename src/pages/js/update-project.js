@@ -1,6 +1,6 @@
 const updateModel = document.getElementById('container__update-project');
 
-function updateProject() {
+function updateProject(id) {
     var titulo = document.querySelector('.container__input input[placeholder="Titulo"]').value;
     var tags = document.querySelector('.container__input input[placeholder="Tags"]').value;
     var links = document.querySelector('.container__input input[placeholder="Links"]').value;
@@ -46,8 +46,9 @@ function updateProject() {
         });
 }
 
-function openUpdate() {
-    updateModel.style.display = 'block'
+function openUpdate(id) {
+    updateModel.style.display = 'block';
+    updateProject(id)
 }
 
 
